@@ -1,0 +1,885 @@
+{
+  "id": "9aaa3b41-8502-4c5c-b889-6ad9be6b542e",
+  "version": "2.0",
+  "name": "TestOnlineHCMUE",
+  "url": "https://online.hcmue.edu.vn/",
+  "tests": [{
+    "id": "f423a01b-14ac-409f-9785-bedecc16fe67",
+    "name": "LoginAccountInvalid",
+    "commands": [{
+      "id": "c2acb246-a2e0-4deb-85f3-ff893538b936",
+      "comment": "",
+      "command": "open",
+      "target": "https://online.hcmue.edu.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aed67110-b295-4f8b-bf34-90a64a0991fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f9ab800-6ed5-4830-b60f-72431bb03e23",
+      "comment": "",
+      "command": "click",
+      "target": "id=lbtDangnhap",
+      "targets": [
+        ["id=lbtDangnhap", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#lbtDangnhap", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='lbtDangnhap']", "xpath:attributes"],
+        ["xpath=//table[@id='table2']/tbody/tr/td[2]/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:__doPostBack('ctl00$lbtDangnhap','')\")]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1470884c-44e3-4c88-bdcc-b661b0949a92",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtUserName']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bf28a76-22be-4319-af9d-ad4cff03cf85",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Table2 > tbody > tr:nth-child(1)",
+      "targets": [
+        ["css=#Table2 > tbody > tr:nth-child(1)", "css:finder"],
+        ["xpath=//table[@id='Table2']/tbody/tr", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bc6e694-e687-4771-8fa6-8ff111e50509",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtUserName']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "45555010101023"
+    }, {
+      "id": "dbd0c560-e3fa-458e-ad22-38d0408970f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "gdjfgnjdnfgdsf"
+    }, {
+      "id": "950481d3-d6b9-4ece-9533-619ac0f12655",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_btLogin",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_btLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$btLogin", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_btLogin", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_btLogin']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "545288b2-4f1d-441f-8b61-47832850d600",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_tdError",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_tdError", "id"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_tdError", "css:finder"],
+        ["xpath=//td[@id='ContentPlaceHolder1_ctl00_ctl00_tdError']", "xpath:attributes"],
+        ["xpath=//table[@id='table6']/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr[3]/td", "xpath:idRelative"],
+        ["xpath=//td/table/tbody/tr[3]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acabf0d1-6eb3-4699-a013-bb2589148476",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3067b565-1f77-4223-b124-08dac6c2ece2",
+    "name": "LoginAccountValid",
+    "commands": [{
+      "id": "58013cb3-e2ab-4a02-8023-5d0d128f2b35",
+      "comment": "",
+      "command": "open",
+      "target": "https://online.hcmue.edu.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eec6a0d1-2c38-46fb-a010-9d908f28a267",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c6462d6-e125-4e9c-a43d-c18f4d35b570",
+      "comment": "",
+      "command": "click",
+      "target": "id=lbtDangnhap",
+      "targets": [
+        ["id=lbtDangnhap", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#lbtDangnhap", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='lbtDangnhap']", "xpath:attributes"],
+        ["xpath=//table[@id='table2']/tbody/tr/td[2]/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:__doPostBack('ctl00$lbtDangnhap','')\")]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "859af526-d8bf-4c76-8d13-2b3ccff64700",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtUserName']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "4501104061"
+    }, {
+      "id": "fb98e4ed-4f0f-473f-abd5-4646bc9adef8",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "0385642964"
+    }, {
+      "id": "0bc125da-fb5b-4d4a-829a-be6c3f525160",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Table2 > tbody > tr:nth-child(1)",
+      "targets": [
+        ["css=#Table2 > tbody > tr:nth-child(1)", "css:finder"],
+        ["xpath=//table[@id='Table2']/tbody/tr", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0e51181-ccb4-4299-988e-33efef884f09",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtUserName']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aea83929-19b3-467f-a95a-c9a8670fe93b",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9da50fcd-634e-440a-ab13-d016f4559250",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Table2 tr:nth-child(2) > td:nth-child(2)",
+      "targets": [
+        ["css=#Table2 tr:nth-child(2) > td:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='Table2']/tbody/tr[2]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7cbef01-1364-4dff-b411-ca6a6abfdd89",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_btLogin",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_btLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$btLogin", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_btLogin", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_btLogin']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79570237-799b-4c7b-bb89-b629d346980e",
+      "comment": "",
+      "command": "click",
+      "target": "id=lbtDangnhap",
+      "targets": [
+        ["id=lbtDangnhap", "id"],
+        ["linkText=Đăng Thoát", "linkText"],
+        ["css=#lbtDangnhap", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng Thoát')]", "xpath:link"],
+        ["xpath=//a[@id='lbtDangnhap']", "xpath:attributes"],
+        ["xpath=//table[@id='table2']/tbody/tr/td[2]/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:__doPostBack('ctl00$lbtDangnhap','')\")]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng Thoát')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b172bb63-6b49-4de1-a53d-14e3322ed391",
+    "name": "LoginEmptyAccount",
+    "commands": [{
+      "id": "942b2192-d10e-4a7e-8b84-b02038a8a9a1",
+      "comment": "",
+      "command": "open",
+      "target": "https://online.hcmue.edu.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c335c25-b780-41f3-a580-f503c2392b18",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec0d89e1-a2a0-4c83-bc04-f155c5a840a0",
+      "comment": "",
+      "command": "click",
+      "target": "id=lbtDangnhap",
+      "targets": [
+        ["id=lbtDangnhap", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#lbtDangnhap", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='lbtDangnhap']", "xpath:attributes"],
+        ["xpath=//table[@id='table2']/tbody/tr/td[2]/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:__doPostBack('ctl00$lbtDangnhap','')\")]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94e5d07e-de33-45bc-8ee1-f4bc1043546b",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtUserName']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e1d47a5-d079-4f96-83ed-0b7e32dcbb67",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ade5359b-25d4-416a-aa61-d312ecc84bb5",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_btLogin",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_btLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$btLogin", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_btLogin", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_btLogin']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf42920b-6a98-4a9d-ad51-5541c2d527d3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d576965a-a833-43b0-8c7d-9b4339b5ad8b",
+    "name": "LoginAccountWithSpecialCharacter",
+    "commands": [{
+      "id": "0aa510a3-3eaa-4f34-bde8-5e9b0872fcef",
+      "comment": "",
+      "command": "open",
+      "target": "https://online.hcmue.edu.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98df0117-9daf-4409-acd8-d11d647d7d13",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae6b3d0a-011c-4676-8e89-ba322dc1f876",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtUserName']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "4500@#hcmue%&&*)*(}{"
+    }, {
+      "id": "52dc6505-2fdd-4f13-84f0-9d725922ace5",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "?><|||*$$$###"
+    }, {
+      "id": "8b8a7156-fd17-461d-9820-0bd70ed3f0f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_btLogin",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_btLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$btLogin", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_btLogin", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_btLogin']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2b51666-0bdf-435b-b46f-8cac8b24a736",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5ac8f88f-9530-458c-93bc-4996c9a5f44d",
+    "name": "LoginAccountLengthExceeds32Characters",
+    "commands": [{
+      "id": "709c793e-af1a-411e-8d79-51aec49d79a4",
+      "comment": "",
+      "command": "open",
+      "target": "https://online.hcmue.edu.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80e619bb-24d6-4748-b67e-a46adaba7afd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ace11bb-175f-4b61-a524-56b90c342bd1",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtUserName']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "V(U.U<VPFkzC(=D+X2E^;.u$kVC}G6}$"
+    }, {
+      "id": "aa68cc0b-6cd3-48a0-8285-0077e3ef7b12",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "V(U.U<VPFkzC(=D+X2E^;.u$kVC}G6}$"
+    }, {
+      "id": "232b2787-9e54-47e3-9673-4f095f0a800c",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_btLogin",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_btLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$btLogin", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_btLogin", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_btLogin']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7aa40bf4-8af2-4db4-bf37-4c1a0b7d4a2c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4361a313-c2a1-4c9d-aefd-e3d9ef12a551",
+    "name": "LoginAccountWrongMoreThan3Times",
+    "commands": [{
+      "id": "3ddf9831-8b9e-4d0e-bc88-3032b0f00178",
+      "comment": "",
+      "command": "open",
+      "target": "https://online.hcmue.edu.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b705d1ea-7f81-4c34-b465-0916a018c63f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91d61cd4-cd82-49ce-8ba2-a08ecd72e1fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtUserName']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "4239238947239"
+    }, {
+      "id": "180f4b35-4eb7-4e04-b4f2-6052a46a18de",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "(a9Mp]bs}Qy"
+    }, {
+      "id": "7e727e58-5567-4e84-8101-323eff0b5391",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_btLogin",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_btLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$btLogin", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_btLogin", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_btLogin']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84e9d1c5-d946-45f9-bf1d-dbd58fa3d11c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Table2 > tbody > tr:nth-child(1)",
+      "targets": [
+        ["css=#Table2 > tbody > tr:nth-child(1)", "css:finder"],
+        ["xpath=//table[@id='Table2']/tbody/tr", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b92342bd-702b-4d38-b65e-e8a77452c38b",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtUserName']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "3646547564567"
+    }, {
+      "id": "59b3f463-6563-487f-977b-ec8aa860ac7f",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "(a9Mp]bs}Qy"
+    }, {
+      "id": "2fd3ed71-873b-4889-8fbe-ea14a546efb2",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_btLogin",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_btLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$btLogin", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_btLogin", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_btLogin']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53c88827-a865-47b2-97a8-84f777ab2033",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Table2 > tbody > tr:nth-child(1)",
+      "targets": [
+        ["css=#Table2 > tbody > tr:nth-child(1)", "css:finder"],
+        ["xpath=//table[@id='Table2']/tbody/tr", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d123b03-039d-42d0-8d47-c0e295b22e4f",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtUserName']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "3456547562342"
+    }, {
+      "id": "491ee5a1-599d-4741-9ec5-4c2e388a89d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "(a9Mp]bs}Qy"
+    }, {
+      "id": "962b3d55-07ba-4641-aafe-62141b0a3714",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_btLogin",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_btLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$btLogin", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_btLogin", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_btLogin']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d56e80a5-9f2d-4e0f-8710-6a72752c1b90",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Table2 > tbody > tr:nth-child(1)",
+      "targets": [
+        ["css=#Table2 > tbody > tr:nth-child(1)", "css:finder"],
+        ["xpath=//table[@id='Table2']/tbody/tr", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2162f19-9720-4430-9431-f2be28e0d71f",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtUserName']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "676532454325345"
+    }, {
+      "id": "8a9231dd-23ed-4b29-90eb-56a80e560e58",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "(a9Mp]bs}Qy"
+    }, {
+      "id": "80c506cc-47ff-4723-b045-4d3700160904",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_btLogin",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_btLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$btLogin", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_btLogin", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_btLogin']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02aa3f75-bab9-45e7-ab23-6a1174ead4f2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f86f4340-1ec5-477c-bbaf-d95370d6f16a",
+    "name": "LoginWithSQLQueryAccessAccount",
+    "commands": [{
+      "id": "a6fb9037-9c95-4bf5-8bba-112c30e23731",
+      "comment": "",
+      "command": "open",
+      "target": "https://online.hcmue.edu.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "caf3ab4c-2b47-48ae-bab0-ed45b3d5f9fa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d717b67-75f6-410d-b1e1-057bb41859c5",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtUserName']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "Select * From SinhVien where MSSV"
+    }, {
+      "id": "6f529876-124d-4bca-8060-6551d9311111",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Select * From SinhVien where Password"
+    }, {
+      "id": "e83d36e3-bc68-42c3-a2dd-744cd647163b",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_btLogin",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_btLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$btLogin", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_btLogin", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_btLogin']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e5017f1-12c9-4025-971c-433b14ba8965",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f0c4cd60-ba93-4fa3-90a0-7987e89bd3ae",
+    "name": "LoginStudentAccountButAsALeader",
+    "commands": [{
+      "id": "a56c5f43-309e-4eb3-90d0-4f3dff901637",
+      "comment": "",
+      "command": "open",
+      "target": "https://online.hcmue.edu.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "468f950a-8a88-4dcb-af80-34a77bacfc8b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "875a0552-9e8e-482c-ad81-ead65354e200",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtUserName']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "4501104061"
+    }, {
+      "id": "93062398-4aaa-46bb-bd79-bfd149312969",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_txtPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "0129423944"
+    }, {
+      "id": "08c03bce-2814-467b-acff-221263461ac3",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_rbtnPrincipal",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_rbtnPrincipal", "id"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_rbtnPrincipal", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_rbtnPrincipal']", "xpath:attributes"],
+        ["xpath=//table[@id='table6']/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td[4]/input", "xpath:idRelative"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3666c6b9-816d-42fb-a106-54d86af65dc6",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_ctl00_ctl00_btLogin",
+      "targets": [
+        ["id=ContentPlaceHolder1_ctl00_ctl00_btLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ctl00$btLogin", "name"],
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_btLogin", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_ctl00_ctl00_btLogin']", "xpath:attributes"],
+        ["xpath=//table[@id='Table2']/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr[4]/td/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32a4be05-cf59-46dd-b227-902dd7e498ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ContentPlaceHolder1_ctl00_ctl00_tdError > img",
+      "targets": [
+        ["css=#ContentPlaceHolder1_ctl00_ctl00_tdError > img", "css:finder"],
+        ["xpath=//td[@id='ContentPlaceHolder1_ctl00_ctl00_tdError']/img", "xpath:idRelative"],
+        ["xpath=//tr[3]/td/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc799fb1-28a6-4998-afdb-8610eeab45c9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d65e810d-3729-49d9-8ed0-8a40793436b5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f423a01b-14ac-409f-9785-bedecc16fe67"]
+  }],
+  "urls": ["https://online.hcmue.edu.vn/"],
+  "plugins": []
+}
